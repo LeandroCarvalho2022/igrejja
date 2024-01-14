@@ -7,7 +7,7 @@ Este projeto é uma aplicação Angular para compartilhar informações sobre ev
 
 ## Tecnologias Utilizadas
 
-- Angular
+- Angular v17
 - TypeScript
 - HTML
 - CSS
