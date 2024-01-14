@@ -1,0 +1,10 @@
+<div class="container">
+  <h1></h1>
+  <div *ngIf="savedCard" class="card">
+    <img src="{{ savedCard.cardImgTop }}" class="card-img-top" alt="{{ savedCard.cardTitle }}">
+    <div class="card-body">
+      <h5 class="card-title">{{ savedCard.cardTitle }}</h5>
+      <p class="card-text">{{ savedCard.cardText }}</p>
+    </div>
+  </div>
+</div>

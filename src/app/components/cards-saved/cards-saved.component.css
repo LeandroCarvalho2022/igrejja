@@ -1,0 +1,17 @@
+.card{
+    display: flex;
+    flex-direction: row;
+}
+.card-img-top{
+    width: 50%;
+    height: 450px;
+}
+
+@media screen and (max-width: 768px){
+    .card{
+        flex-direction: column;
+    }
+    .card-img-top{
+        width: 100% !important;
+    }
+}

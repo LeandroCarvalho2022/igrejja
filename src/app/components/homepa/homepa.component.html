@@ -1,0 +1,100 @@
+<!--
+    imgwelcom
+-->
+<div class="container-fluid">
+  <div class="row">
+    <img style="padding: 0;" src="/assets/images/bannerwelcome.jpg" alt="bannerwelcome" class="img-fluid">
+  </div>
+</div>
+
+<!--
+   versic
+-->
+<div style="margin-top: 50px; display: grid; justify-items: center;" class="container-fluid">
+  <div class="row">
+    <div style="padding: 50px; " class="col">
+      <h3 style="font-weight: bold;">"Esforcem-se para viver em paz com todos e para serem santos; sem santidade ninguém
+        verá o Senhor."</h3>
+      <h1 style="font-weight: bold;">Hebreus 12:14</h1>
+    </div>
+
+  </div>
+  <div class="row">
+    <div style="padding: 0px 50px 50px 50px; " class="col" id="dizer">
+      <p>Nossa vida cristã é marcada por um viver constante em comunhão com Deus por meio da disciplina espiritual,
+        movendo-nos pela Palavra,
+        adoração e amor fraternal, e existindo como testemunhas do Reino de Deus através do evangelismo missional e
+        missionário.</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="container" id=" ">
+  <h1 id="newsid">Notícias </h1>
+  <div class="line"></div>
+</div>
+<!--
+    cards
+-->
+<div class="container-fluid flex" style="display: flex; align-items: center; justify-content: center;">
+  <div id="cards" class="row">
+    <div class="card" style="width:18rem; margin: 15px;">
+      <img src="/assets/images/eventspanqueca.jpg" class="card-img-top" alt="NoiteDaPanqueca">
+      <div class="card-body">
+        <h5 class="card-title">Noite da Panqueca</h5>
+        <p class="card-text">Convidamos você e sua família para a noite de panquecas.</p>
+        <a  class="btn btn-primary" (click)="addToLocalStorage ()">Mais sobre</a>
+        <p class="hidden" style="display: none;">ESTE MOSTRARÁ APENAS NO CARDS-SAVED TESTE</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem; margin: 15px;">
+      <img src="/assets/images/retiro.jpg" class="card-img-top" alt="img">
+      <div class="card-body">
+        <h5 class="card-title">Retiro introdução aos dons!</h5>
+        <p class="card-text">"Há diversos Dons, mas um só espírito Santo!"</p>
+        <a class="btn btn-primary" (click)="addToLocalStorage ()">Mais sobre</a>
+      </div>
+    </div>
+    <div class="card" id="block" style="width: 18rem; margin: 15px;">
+      <img src="/assets/images/missa.jpg" class="card-img-top" alt="img">
+      <div class="card-body">
+        <h5 class="card-title">Missas</h5>
+        <p class="card-text">Se não pôde comparecer a algum encontro, veja uma de nossas 
+          <strong>Lives!</strong></p>
+        <a id="live" href="https://www.facebook.com/paroquiasagradafamiliacic/live_videos" 
+         target="_blank"  class="btn btn-primary">Clique para acessar as Lives!</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--
+
+  Donation
+-->
+<div id="bd" style="margin-top: 50px;" class="container-fluid">
+  <div class="row" style="display: flex; justify-content: center;">
+    <img style="padding: 0;" src="/assets/images/contribua.jpg" alt="bannerwelcome" class="img-fluid" id="donateimg">
+    <button class="button2" id="btnCopiarCNPJ" (click)="copiarCNPJ()">Clique para copiar a chave pix (CNPJ)!</button>
+  </div>
+</div>
+
+<div id="horarios"  class="container-fluid">
+  <div class="row" id="conthorarios">
+    <div class="row" id="sobrepost">
+    </div>
+    <div class="row" id="blabla">
+      <div class="col" id="coll">
+        <h1 style="font-family:'Bootstrap-icons';" >Horários &#xF1F6;</h1>
+        <p style="width: fit-content; margin: 0;"><strong>DOMINGOS </strong>08h30 & 19h30</p>
+      </div>
+      <div class="col" id="coll">
+        <p style="width: fit-content; margin: 0;"><strong>QUARTAS-FEIRAS </strong>15h e 19h30</p>
+        <p style="font-family:'Bootstrap-icons';" ><strong>Nossa paróquia se encontra aqui!  &#xF64B;</strong></p>
+      </div>
+      <a style="display: grid; margin-bottom: 20px; justify-content: center; text-decoration: none;" [href]="linkMapa"
+        target="_blank"><button style="padding: 5px; height: 50px; " class="button2">Abrir Mapa</button></a>
+    </div>
+  </div>
+</div>
+
